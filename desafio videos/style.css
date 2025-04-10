@@ -1,0 +1,12 @@
+body {
+  background: rgba(25, 25, 25, 1);
+}
+h1 {
+  color: white;
+}
+.ma {
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  color: white;
+}

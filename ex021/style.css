@@ -1,0 +1,61 @@
+body {
+  margin-top: 10px;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#cabecalho {
+  background-color: #374fb8;
+  padding: 10px;
+  color: white;
+  width: 1200px;
+}
+
+h1 {
+  text-align: center;
+}
+#menu {
+  background-color: #37a0b8;
+  padding: 10px;
+  margin-top: 10px;
+  width: 1200px;
+}
+#menu > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+#menu > a::before {
+  content: "|";
+}
+#menu > a:hover {
+  text-decoration: underline;
+  color: #374fb8;
+}
+footer {
+  width: 1200px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  margin-top: 10px;
+  text-align: center;
+}
+section {
+  width: 1200px;
+  border-bottom: 1px solid red;
+}
+section > div.depoimento {
+  width: 200px;
+  background-color: #5a6ec8;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 70px 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.413);
+  padding-left: 10px;
+  box-shadow: 1px 1px 1px #5a6ec8c0;
+}

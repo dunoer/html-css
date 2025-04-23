@@ -35,7 +35,7 @@ footer > p > a {
 }
 header > p > a:hover,
 footer > p > a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #a8905e;
 }
 section {

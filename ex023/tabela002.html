@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+
+    caption {
+      padding: 15px;
+      font-size: 1.4em;
+      background-color: rgb(228, 110, 51);
+      color: white;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 4px;
+    }
+
+
+    td,
+    th {
+      border: 1px, solid black;
+      padding: 10px;
+    }
+
+    thead,
+    tfoot {
+      background-color: rgb(198, 75, 13);
+      color: white;
+
+    }
+
+    .numero {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Uso para tabelas grandes</h1>
+  <table>
+    <caption>População Estados Brasil</caption>
+    <thead>
+      <th></th>
+      <th>Estado</th>
+      <th> População</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="numero">1</td>
+        <td>Sao Paulo</td>
+        <td>45 973 194</td>
+      </tr>
+      <tr>
+        <td class="numero">2</td>
+        <td>Minas Gerais</td>
+        <td>21 322 691</td>
+      </tr>
+      <tr>
+        <td class="numero">3</td>
+        <td>Rio de Janeiro</td>
+        <td>17 219 679 </td>
+      </tr>
+      <tr>
+        <td class="numero">4</td>
+        <td>Bahia</td>
+        <td>14 850 513</td>
+      </tr>
+      <tr>
+        <td class="numero">5</td>
+        <td>Parana</td>
+        <td>11 824 665 </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th></th>
+      <th>Total Populaçao</th>
+      <td>0000</td>
+    </tfoot>
+  </table>
+
+</body>
+
+</html>

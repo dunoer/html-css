@@ -13,6 +13,7 @@
     table {
       border-collapse: collapse;
       width: 700px;
+      margin: auto;
     }
 
     th,
@@ -26,12 +27,25 @@
       font-weight: bold;
       text-align: center;
       padding: 20px;
+      text-transform: uppercase;
+    }
+
+    .destaque {
+      background-color: cadetblue;
+      color: white;
     }
   </style>
 </head>
 
 <body>
   <table>
+    <colgroup>
+      <col>
+      <col class="destaque">
+      <col>
+      <col>
+      <col>
+    </colgroup>
     <caption>
       Filmes Favoritos
     </caption>

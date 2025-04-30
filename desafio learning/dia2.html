@@ -12,47 +12,118 @@
       padding: 0;
     }
 
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      width: 1000px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0f1311;
+
+    }
+
     li {
       list-style: none;
+      color: #1A221F;
     }
 
-    body {
-      display: grid;
-      height: 100%;
-      width: 100%;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: rgb(225, 253, 235);
+    nav>ul {
+      display: flex;
+      gap: 10px;
     }
 
-    .wrapper {
-      display: inline-flex;
+    .login {
+      padding: 10px;
+      border-radius: 40%;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.18);
+      color: #1A221F;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.185);
+    }
+
+    .signup {
+      padding: 10px;
+      border-radius: 37%;
+      background-color: #249E9D;
+      border: none;
+      color: white;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.185);
+
+    }
+
+    hr {
+      width: 1000px;
+      margin: auto;
+      border: 1px solid rgba(0, 0, 0, 0.171);
+    }
+
+    #secao1 {
+      width: 1000px;
+      margin: auto;
+      height: 800px;
+      background-image: linear-gradient(to bottom, #1F332C, #131d19);
+      margin-top: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    p.ju {
+      color: white;
+      font-size: 1.3em;
+      font-weight: bold;
+      background-color: #3c4a45;
+      border-radius: 20px;
+      padding: 20px;
     }
   </style>
 </head>
 
 <body>
-  <ul class="wrapper">
-    <li class="iconface">
-      <span class="tooltip"> Facebook</span>
-      <span><i class="fa-brands fa-facebook"></i></span>
-    </li>
-    <li class="icontwi">
-      <span class="tooltip"> Twitter </span>
-      <span><i class="fa-brands fa-x-twitter"></i></span>
-    </li>
-    <li class="iconinst">
-      <span class="tooltip"> Instagram</span>
-      <span><i class="fa-brands fa-instagram"></i></span>
-    </li>
-    <li class="icongit">
-      <span class="tooltip"> Github </span>
-      <span><i class="fa-brands fa-github"></i></span>
-    </li>
-    <li class="iconyou">
-      <span class="tooltip"> Youtube </span>
-      <span><i class="fa-brands fa-youtube"></i></span>
-    </li>
-  </ul>
+  <header>
+    <img src="Logo.svg" alt="logo-site">
+    <nav>
+      <ul>
+        <a href="#">
+          <li>Produtos</li>
+        </a>
+        <a href="#">
+          <li>Solução</li>
+        </a>
+        <a href="#">
+          <li>Familia</li>
+        </a>
+        <a href="#">
+          <li>Preços</li>
+        </a>
+      </ul>
+    </nav>
+    <nav>
+      <button class="login">Login</button>
+      <button class="signup">Sing Up</button>
+    </nav>
+
+  </header>
+  <hr>
+  <section id="secao1">
+    <p class="ju">Todas as soluções</p>
+    <H1>todas as solucoes de nuvem</H1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt omnis vero amet, minus excepturi ut reiciendis natus expedita perspiciatis cum, quod officiis consectetur. Debitis minus beatae temporibus, illo in consequuntur.</p>
+  </section>
+
 </body>
 
 </html>

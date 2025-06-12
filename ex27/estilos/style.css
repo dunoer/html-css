@@ -1,0 +1,96 @@
+@charset "UTF-8";
+:root {
+  --corPrincipal: #4487ad;
+  --corSegundaria: #987648;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body,
+html {
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    var(--corPrincipal),
+    var(--corSegundaria)
+  );
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 245px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.285);
+}
+div {
+  width: 244px;
+  height: 184px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+h1 {
+  text-align: center;
+  color: var(--corPrincipal);
+  padding: 20px;
+}
+
+p.para {
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+form {
+  width: 245px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dados {
+  width: 199px;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid var(--corPrincipal);
+  color: var(--corPrincipal);
+}
+.dados::placeholder {
+  color: var(--corPrincipal);
+  opacity: 0.5;
+}
+.enviar {
+  width: 215px;
+  height: 43px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--corSegundaria);
+  color: white;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.enviar:hover {
+  background-color: #654c29;
+}
+.esqueci {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 215px;
+  height: 43px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid var(--corSegundaria);
+  cursor: pointer;
+}

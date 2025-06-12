@@ -1,0 +1,14 @@
+@charset "UTF-8";
+:root {
+  --corPrincipal: #4487ad;
+  --corSegundaria: #987648;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body,
+html {
+  background: linear-gradient(to left, --corSegundaria, --corPrincipal);
+}

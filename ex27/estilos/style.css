@@ -64,6 +64,7 @@ form {
 .dados::placeholder {
   color: var(--corPrincipal);
   opacity: 0.5;
+  margin-bottom: 2px;
 }
 .enviar {
   width: 215px;

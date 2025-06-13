@@ -57,7 +57,7 @@ form {
 }
 .login {
   position: absolute;
-  left: 185px;
+  left: 220px;
   top: 15px;
   font-size: 2em;
   color: var(--corPrincipal);
@@ -68,7 +68,7 @@ form {
 }
 .senha1 {
   position: absolute;
-  left: 185px;
+  left: 220px;
   top: 15px;
   font-size: 2em;
   color: var(--corPrincipal);

@@ -23,14 +23,14 @@ body {
   align-items: center;
 }
 main {
-  width: 245px;
+  width: 300px;
   height: 600px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.285);
 }
 div.img {
-  width: 244px;
+  width: 300px;
   height: 184px;
   border-radius: 10px;
   background-color: #d9d9d9;
@@ -47,7 +47,7 @@ p.para {
   text-align: center;
 }
 form {
-  width: 245px;
+  width: 300px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;

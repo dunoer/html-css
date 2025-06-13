@@ -40,7 +40,19 @@ h1 {
   color: var(--corPrincipal);
   padding: 20px;
 }
+.borda {
+  display: inline-block;
+  border-left: 5px solid var(--corSegundaria);
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 30%;
+}
 
+hr {
+  display: inline-block;
+  width: 70px;
+  border: 2px solid var(--corSegundaria);
+}
 p.para {
   padding: 10px;
   font-size: 0.8em;

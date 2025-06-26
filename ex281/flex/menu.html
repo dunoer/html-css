@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    menu {
+      background-color: yellowgreen;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+    }
+
+    #i1 {
+      order: 1;
+    }
+
+    #i2 {
+      order: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <menu>
+    <h1 id="i1">DRJrecargas</h1>
+    <div class="links" id="i2">
+
+      <a href="">conta</a>
+      <a href="">pesquisar</a>
+    </div>
+  </menu>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      height: 731px;
+      background-color: #51697C;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      color: white;
+      font-size: 1em;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 5em;
+    }
+
+    div>a {
+      color: white;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+
+    div>a::after {
+      content: " | ";
+    }
+
+    .itens {
+      background-color: #6f8aa0;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+
+    div {
+      padding: 15px;
+    }
+
+    img {
+      height: 400px;
+      width: 400px;
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      padding: 20px;
+      text-transform: uppercase;
+      border-radius: 10px;
+      background-color: white;
+      border: none;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <p>GroundUp</p>
+      </div>
+      <div class="itens">
+        <a href="">Home</a>
+        <a href="">About us</a>
+        <a href=""> Listing</a>
+        <a href="">Client</a>
+        <a href="">Testemonios</a>
+      </div>
+    </nav>
+    <section>
+      <div>
+        <h1>FIND YOUR INVESTIMENT PROPRIETY</h1>
+        <p>Discovey the perfect proprity with friend help and smart insights tailores to your investimts dreams.</p>
+        <button>View listing</button> <button> > </button>
+      </div>
+      <div><img src="Captura de tela 2025-06-30 143836.png" alt="casa"></div>
+    </section>
+  </header>
+</body>
+
+</html>

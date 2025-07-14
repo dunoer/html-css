@@ -8,15 +8,15 @@
   <style>
     div.container {
       border: 3px solid blue;
-      height: 250px;
+
       display: grid;
+      grid-template-rows: 80px 80px 80px;
       grid-template-columns: auto auto auto;
-      grid-template-rows: auto auto auto;
+
       gap: 10px;
-      align-items: normal;
-      justify-items: normal;
-      align-content: normal;
-      justify-content: normal;
+      place-items: normal normal;
+      place-content: normal normal;
+      grid-auto-rows: 80px;
     }
 
     div.item {
@@ -35,6 +35,11 @@
     <div class="item">E</div>
     <div class="item">F</div>
     <div class="item">G</div>
+    <div class="item">G</div>
+    <div class="item">G</div>
+    <div class="item">G</div>
+
+
   </div>
 </body>
 
